@@ -1,0 +1,16 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Lynk social media app",
+  "private": true,
+  "scripts": {
+    "start": "node start.js",
+    "server": "npm start --prefix social-media-backend",
+    "client": "npm start --prefix social-media-frontend",
+    "build": "npm run build --prefix social-media-frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
